@@ -1,43 +1,95 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg",
+  "title": "Quiz League of Legends #AluraQuiz",
+  "description": "Um quiz rápido sobre o mundo de League of Legends",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://universe-meeps.leagueoflegends.com/v1/assets/images/factions/demacia_splash.jpg",
+      "title": "Qual é a maior naçâo rival de Demacia?",
+      "description": "Você sabe?",
+      "answer": 0,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Noxus",
+        "Ixtal",
+        "Ionia",
+        "Shurima"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://universe-meeps.leagueoflegends.com/v1/assets/images/ixtal_splash.jpg",
+      "title": "Qual foi a região mais recente descoberta em Runeterra?",
+      "description": "Essa região é ainda esconde muitos segredos...",
+      "answer": 3,
+      "alternatives": [
+        "O Vazio",
+        "Shurima",
+        "Targon",
+        "Ixtal",
+        "Piltover"
+      ]
+    },
+    {
+      "image": "https://lolstatic-a.akamaihd.net/frontpage/apps/prod/kaisa-reveal/pt_BR/4b3ba0751b18398c0fe8d339207ba00a26309de1/assets/img/content/hero.jpg",
+      "title": "Quem é o possível pai de Kai’Sa?",
+      "description": "Kai’Sa tem uma intuição de quem seja, mesmo que nunca tenha confirmado...",
+      "answer": 4,
+      "alternatives": [
+        "Aurelion Sol",
+        "Viego",
+        "Blitzcrank",
+        "Malzahar",
+        "Kassadin"
+      ]
+    },
+    {
+      "image": "https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-champion-reveal-sylas/pt_BR/5fb42190c9f4920b2da5e4722c59f70ca36dd870/assets/img/content/hero-desktop.jpg",
+      "title": "Qual material foi usado para aprisionar Sylas em Demacia?",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Petricita",
+        "Titânio",
+        "Ferro"
+      ]
+    },
+    {
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
+      "title": "Qual campeã foi retirada da lanterna de Thresh?",
+      "answer": 3,
+      "alternatives": [
+        "Lux",
+        "Syndra",
+        "Lulu",
+        "Senna",
+        "Rell"
+      ]
+    },
+    {
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+      "title": "O que a Jinx mais gosta de fazer?",
+      "description": "Explosivos voláteis são tudo que uma garota pode querer!",
+      "answer": 4,
+      "alternatives": [
+        "Explodir coisas",
+        "Lavar louça",
+        "Lutar contra qualquer um que apareça em sua frente",
+        "Tomar banho numa banheira cheia de balas de metralhadora",
+        "Todas as anteriores, exceto lavar louça E causar o caos!"
       ]
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
   ],
   "theme": {
     "colors": {
-      "primary": "#0d47a1",
-      "secondary": "#29b6f6",
-      "mainBg": "#171B35",
-      "contrastText": "#FFFFFF",
-      "wrong": "#FF5722",
-      "success": "#4CAF50"
+      "primary": "#09152A",
+      "secondary": "#000000",
+      "mainBg": "#000912",
+      "contrastText": "#02D1ED",
+      "wrong": "#7F1D1D",
+      "success": "#64748B"
     },
-    "borderRadius": "4px"
+    "borderRadius": "8px"
   }
 }
